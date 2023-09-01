@@ -1,0 +1,62 @@
+Test Case:1
+Open Site:https://www.geeksforgeeks.org
+Close
+-------------------------------------------------------------
+Test Case:2
+Open Site:https://www.geeksforgeeks.org
+Set the Window Size
+Close
+-------------------------------------------------------------
+Test Case:3
+Open Site:https://www.geeksforgeeks.org
+Store the title
+Dispaly the Stored title.
+Close
+-------------------------------------------------------------
+Test Case:4
+Open Site:https://www.geeksforgeeks.org
+Store the title
+Dispaly the Stored title
+assert title
+Close
+-------------------------------------------------------------
+Test Case:5
+Open Site:https://www.geeksforgeeks.org
+assert the sign in Button
+Check the Data Science Option is ther or not.
+Close
+-------------------------------------------------------------
+Test Case:6
+Open Site:https://www.geeksforgeeks.org
+Scroll the Window
+Click the Data Science Option
+Close
+-------------------------------------------------------------
+Test Case:7
+Open Site:https://www.geeksforgeeks.org
+Store the title 
+Click the Data Science Option
+After Opening the Site store the title
+Assert both title
+Close
+-------------------------------------------------------------
+Test Case:8
+Open Site:https://www.geeksforgeeks.org
+Click the Data Science Option
+Check is it asking for the Login
+Close
+-------------------------------------------------------------
+Test Case:9
+Open Site:https://www.geeksforgeeks.org
+Click the Data Science Option
+Back to main page
+Check the where you are in main page are not
+Close
+-------------------------------------------------------------
+Test Case:10
+Open Site:https://www.geeksforgeeks.org.
+Check where the Sign in option is asking are not.
+Click the Data Science Option.
+Close
+-------------------------------------------------------------
+-------------------------------------------------------------
