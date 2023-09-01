@@ -4,58 +4,131 @@
   "name": "geeksforgeeksTest",
   "url": "https://www.geeksforgeeks.org",
   "tests": [{
-    "id": "e923c816-ff33-49a1-ab7c-8e17404d9ee9",
+    "id": "fc52498e-dfdd-4cd9-a1c2-286161ab5e6d",
     "name": "geeksforgeeksTest1",
     "commands": [{
-      "id": "969d0a17-04cc-40dc-ad54-c7165101f0d2",
+      "id": "1ba5d7f0-a411-4757-8a76-f141386ffb12",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "",
       "targets": [],
       "value": ""
     }, {
-      "id": "cf376d8a-a082-46ad-9728-83c1ed270f36",
+      "id": "7ef3ae07-42bf-443e-bb98-07f524e37650",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bd955cb2-e32d-4b4f-860f-dbdc6d5f1d6f",
+    "name": "geeksforgeeksTest2",
+    "commands": [{
+      "id": "31a28bd1-fa38-48fe-941a-c1b7ed4c2f38",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b312fe86-c768-4949-9ad7-d7b94ec8eb11",
       "comment": "",
       "command": "setWindowSize",
       "target": "1296x696",
       "targets": [],
       "value": ""
     }, {
-      "id": "33321313-9408-4da0-91b4-cf0378885597",
+      "id": "b8c2ca66-953f-4741-bdb1-46dc52f76e87",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c79b89d-d642-4fdb-be24-2aacf6afbdb7",
+    "name": "geeksforgeeksTest3",
+    "commands": [{
+      "id": "148e7643-66c5-4f66-85fd-48a044e7daac",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f76d789-a766-4295-912b-a2ca9c83f7e0",
       "comment": "",
       "command": "storeTitle",
       "target": "",
       "targets": [],
       "value": "title"
     }, {
-      "id": "fdc473ab-06d9-406f-a641-df100eefa101",
+      "id": "4e7aabd1-372e-4ba4-a04b-e1a5dfdc1166",
       "comment": "",
       "command": "echo",
       "target": "${title}",
       "targets": [],
       "value": ""
     }, {
-      "id": "2bf519e0-60f5-4b70-aa0b-7a0172d3d09e",
+      "id": "4b9293b8-716d-4960-9778-25c6d31b8396",
       "comment": "",
-      "command": "assert",
-      "target": "title",
+      "command": "close",
+      "target": "",
       "targets": [],
-      "value": "GeeksforGeeks | A computer science portal for geeks"
-    }, {
-      "id": "2ce6d1b9-678f-4f2e-8ae2-7eff94e3b2e1",
+      "value": ""
+    }]
+  }, {
+    "id": "c67f3ca4-6e96-4dc7-9113-ae1cecc2ca9f",
+    "name": "geeksforgeeksTest4",
+    "commands": [{
+      "id": "96a006d5-c04c-4527-adf3-8c2fbb136161",
       "comment": "",
-      "command": "assertText",
-      "target": "css=.signin-button",
-      "targets": [
-        ["css=.signin-button", "css:finder"],
-        ["xpath=//button[@type='submit']", "xpath:attributes"],
-        ["xpath=//form[@id='Login']/button", "xpath:idRelative"],
-        ["xpath=//section/form/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
-      ],
-      "value": "Sign In"
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
     }, {
-      "id": "c93432c2-6f0a-4d81-9cb6-9d4cf6f576d3",
+      "id": "dc7a40e6-ba67-498c-99d9-ec1f7e609aee",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "title"
+    }, {
+      "id": "70a11de9-1b09-49bd-a4c9-20593c94e547",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "${title}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ac17bcb-5bf0-4212-b5a0-2d1514631e03",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1f9e1cc5-b652-49d7-9e2d-cbad13f0096d",
+    "name": "geeksforgeeksTest5",
+    "commands": [{
+      "id": "14c85baf-575e-46f7-955f-0d259460c94d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35af313f-a89d-48bc-a184-0b0ca459dbd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "515883bd-9be8-4e05-8565-a454d9499858",
       "comment": "",
       "command": "click",
       "target": "css=.close",
@@ -66,10 +139,10 @@
       ],
       "value": ""
     }, {
-      "id": "724b18ea-b93c-4f66-b843-71b2a9f3874e",
+      "id": "ca2ca088-e7b7-4c5b-b369-dbb267a337f0",
       "comment": "",
       "command": "assertText",
-      "target": "xpath=//a[contains(text(),'Sign In')]",
+      "target": "linkText=Sign In",
       "targets": [
         ["linkText=Sign In", "linkText"],
         ["css=.header-main__signup", "css:finder"],
@@ -82,27 +155,9 @@
       ],
       "value": "Sign In"
     }, {
-      "id": "d7d3192a-adbd-4a7f-819c-8eb672318201",
+      "id": "0bcdb145-20a7-429d-819d-6daae80138fc",
       "comment": "",
-      "command": "verifyText",
-      "target": "xpath=//*[@id=\"hslider\"]/li[5]/a",
-      "targets": [
-        ["css=.close", "css:finder"],
-        ["xpath=//div[10]/div[3]/div/div/span", "xpath:position"],
-        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
-      ],
-      "value": "Data Science"
-    }, {
-      "id": "5e0be4f6-894d-4492-992a-733597f5af8c",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,186.6666717529297)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "12549f84-a43f-4a06-a1e6-5c43ce2a8a39",
-      "comment": "",
-      "command": "click",
+      "command": "assertText",
       "target": "linkText=Data Science",
       "targets": [
         ["linkText=Data Science", "linkText"],
@@ -112,23 +167,340 @@
         ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/courses/data-science-live?itm_source=GfG&itm_medium=gfg_submenu&itm_campaign=DS_Submenu/&ref=shm')]", "xpath:href"],
         ["xpath=//div[3]/ul/li[5]/a", "xpath:position"]
       ],
+      "value": "Data Science"
+    }, {
+      "id": "ba173bfc-2170-484f-8aca-7bee35db17fe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "850d3aae-4dfa-443c-90af-9e38672e716b",
+    "name": "geeksforgeeksTest6",
+    "commands": [{
+      "id": "9904c1c5-31ec-414c-ade6-21376a4dc7fb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
       "value": ""
     }, {
-      "id": "0eb9c8fb-b0a3-45b3-8c19-06788e83cc54",
+      "id": "e9cedf2f-76a7-4ddc-8a64-1dbb7124e5c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1026x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35b6538f-1716-48fa-9143-0e9e1a6d9695",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "b58867ae-b241-42db-b65d-d31d1c3841ee",
+      "comment": "",
+      "command": "echo",
+      "target": "${url}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acdd5759-5269-480c-9aad-dd46e705f1fe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Data Science",
+      "targets": [
+        ["linkText=Data Science", "linkText"],
+        ["css=#hslider > li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Data Science')])[7]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/courses/data-science-live?itm_source=GfG&itm_medium=gfg_submenu&itm_campaign=DS_Submenu/&ref=shm')]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49e4d829-1e24-4fc6-913d-77499b81a858",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url1"
+    }, {
+      "id": "22381c1c-78a6-4810-8a7c-cb3cda914dee",
+      "comment": "",
+      "command": "echo",
+      "target": "${url1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58ef0c65-acfb-4b5c-a57c-761e41a8e293",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "34b2d891-caf9-42a0-aade-641ec5948d53",
+    "name": "geeksforgeeksTest7",
+    "commands": [{
+      "id": "18776640-5d55-457e-895e-af4de8fefc30",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a4541dd-c4ed-4716-a3c7-e69d22b16fa1",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "title"
+    }, {
+      "id": "94c34712-c63b-442a-b13f-e4bba316606d",
+      "comment": "",
+      "command": "echo",
+      "target": "${title}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ca0e919-4416-40e9-a8bb-161c9a909605",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Data Science",
+      "targets": [
+        ["linkText=Data Science", "linkText"],
+        ["css=#hslider > li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Data Science')])[7]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/courses/data-science-live?itm_source=GfG&itm_medium=gfg_submenu&itm_campaign=DS_Submenu/&ref=shm')]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab9756c8-2c05-4361-a00d-1532791a6c5b",
       "comment": "",
       "command": "storeTitle",
       "target": "",
       "targets": [],
       "value": "title1"
     }, {
-      "id": "c63c39b9-7855-401a-b230-900c98b44597",
+      "id": "e1aa84b1-b5df-4e24-ae31-062dacbf9aa0",
       "comment": "",
-      "command": "assert",
+      "command": "echo",
+      "target": "${title1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46c220ef-49e8-42c5-aec7-6b8496004c6d",
+      "comment": "",
+      "command": "verify",
       "target": "title",
       "targets": [],
-      "value": "${title}"
+      "value": "${title1}"
     }, {
-      "id": "113ee17a-d52d-4983-a302-cd2b6d75f502",
+      "id": "1541c38d-8193-43c9-b1cf-7d44db4fc0ca",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "322c836d-f45e-4d10-9b05-07946fda9168",
+    "name": "geeksforgeeksTest8",
+    "commands": [{
+      "id": "daacaba3-e779-4773-adc0-cc7106595be5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "167f148d-a789-4f95-97d8-734b2196927a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Data Science",
+      "targets": [
+        ["linkText=Data Science", "linkText"],
+        ["css=#hslider > li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Data Science')])[7]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/courses/data-science-live?itm_source=GfG&itm_medium=gfg_submenu&itm_campaign=DS_Submenu/&ref=shm')]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0406c5cb-05bb-4163-a84f-f5d310897a2e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Login to Register",
+      "targets": [
+        ["linkText=Login to Register", "linkText"],
+        ["css=.customButtonFont", "css:finder"],
+        ["xpath=(//a[contains(text(),'Login to Register')])[2]", "xpath:link"],
+        ["xpath=//section[@id='mainCourseCard']/div/div/div[2]/div/div[4]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.geeksforgeeks.org/courses/data-science-live?itm_source=GfG&itm_medium=gfg_submenu&itm_campaign=DS_Submenu/&ref=shm?loginMode=696')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a", "xpath:position"]
+      ],
+      "value": "Login to Register"
+    }, {
+      "id": "8fadda9e-aba5-4b4f-815b-8f9c94879b4f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f04355a5-afdf-4a14-82c0-4b3f712cdb66",
+    "name": "geeksforgeeksTest9",
+    "commands": [{
+      "id": "86b0242a-134f-48fa-92de-4cc04cd78379",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "059a2ad9-49c4-462a-a254-e4d9e977a9c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0dd2a435-98e3-4c9a-9f5f-6d89d971d734",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "60ebe772-3016-4afb-a275-6e24d6a03914",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Data Science",
+      "targets": [
+        ["linkText=Data Science", "linkText"],
+        ["css=#hslider > li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Data Science')])[7]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/courses/data-science-live?itm_source=GfG&itm_medium=gfg_submenu&itm_campaign=DS_Submenu/&ref=shm')]", "xpath:href"],
+        ["xpath=//body/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "681f01f4-818d-498d-a2a2-aa6ec0b08d9c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13dce08b-afdf-455c-aea3-f48ac9fe96d5",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url1"
+    }, {
+      "id": "be25949f-06c5-4041-b25e-9bdcabd192b3",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "${url1}"
+    }, {
+      "id": "c2b0770f-07bb-4ee7-b0e2-470831b904da",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b1599615-88f6-445c-9e3c-2783b78b13d6",
+    "name": "geeksforgeeksTest10",
+    "commands": [{
+      "id": "24315c01-ca08-4030-b1fb-0e39026782d5",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0984c4ad-1233-4f01-8b69-5e5307c10029",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb8f6355-2586-43e2-bd3b-b9060cc04656",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url"
+    }, {
+      "id": "a3c39bd2-9a81-4d5c-976e-f480c38d3f01",
+      "comment": "",
+      "command": "echo",
+      "target": "${url}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ebbaa06-be56-43af-9560-77000de8c69f",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a598c3a-5d93-43d7-9ee8-e9f35d4d077f",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [
+        ["css=.signin-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='Login']/button", "xpath:idRelative"],
+        ["xpath=//section/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": "Sign In"
+    }, {
+      "id": "d64d8899-9570-46c4-9e57-438bd9785223",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=//div[8]/div[3]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4d1fb83-2132-4d45-af9a-43fb827cde2f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Data Science",
+      "targets": [
+        ["linkText=Data Science", "linkText"],
+        ["css=#hslider > li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Data Science')])[7]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/courses/data-science-live?itm_source=GfG&itm_medium=gfg_submenu&itm_campaign=DS_Submenu/&ref=shm')]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31dcb2e6-9d62-4075-ad98-364fcefc7d0d",
       "comment": "",
       "command": "assertText",
       "target": "linkText=Login to Register",
@@ -142,25 +514,129 @@
       ],
       "value": "Login to Register"
     }, {
-      "id": "07bb28b0-e22d-43a6-b8a1-537d349cb43e",
+      "id": "e011490b-12e3-42bb-84ba-a01fda1294ce",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url1"
+    }, {
+      "id": "cef8f580-bdf5-4b67-851d-cc96fc28114c",
+      "comment": "",
+      "command": "echo",
+      "target": "${url1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e11ffcc8-abeb-4556-b62a-393f57ccad1d",
       "comment": "",
       "command": "executeScript",
       "target": "window.history.go(-1)",
       "targets": [],
       "value": ""
     }, {
-      "id": "a1e31d7e-152d-4540-aef5-ddaed94ad26e",
+      "id": "6e89de8c-efbb-4c07-abf2-151c01db3bf5",
       "comment": "",
-      "command": "assertText",
-      "target": "xpath=//div[@id='RA-root']/div/div/div/div",
+      "command": "click",
+      "target": "css=.close",
       "targets": [
-        ["css=.gfg_home_page_search_heading", "css:finder"],
-        ["xpath=//div[@id='RA-root']/div/div/div/div", "xpath:idRelative"],
-        ["xpath=//div[4]/div/div/div/div/div/div", "xpath:position"]
+        ["css=.close", "css:finder"],
+        ["xpath=//div[11]/div[3]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
       ],
-      "value": "Hello, What Do You Want To Learn?"
+      "value": ""
     }, {
-      "id": "4d262721-35a5-467f-b58c-259fa1b08e09",
+      "id": "5de1dc96-6c41-4753-aa8d-6a2939dd07df",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [],
+      "value": "VHDL"
+    }, {
+      "id": "d05a8a8d-39af-40c2-955c-50054b6a8b87",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='RA-root']/div/div/div/div[2]/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d5b06feb-6cd0-437d-a5b5-281260a3d24d",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.gfg_home_page_modal_search-info > span:nth-child(1)",
+      "targets": [
+        ["css=.gfg_home_page_modal_search-info > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gfg_home_page_modal']/div[2]/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'About 45 results ')]", "xpath:innerText"]
+      ],
+      "value": "searchResults"
+    }, {
+      "id": "2efe88a8-6404-4afb-ac90-8cc5b3488171",
+      "comment": "",
+      "command": "echo",
+      "target": "${searchResults}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aee76934-c99d-40de-b9a1-cddb91bf029f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-modal-wrap",
+      "targets": [
+        ["css=.ant-modal-wrap", "css:finder"],
+        ["xpath=//div[14]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6507624d-a7b2-46ac-8029-5c556ffbdbbd",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href",
+      "targets": [],
+      "value": "url2"
+    }, {
+      "id": "78401bd5-3e52-4082-a80c-9c8a2e790eb4",
+      "comment": "",
+      "command": "assert",
+      "target": "url",
+      "targets": [],
+      "value": "${url2}"
+    }, {
+      "id": "78b012d2-c10c-4f30-bee6-f99928e2f0ac",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//*[@id=\"RA-root\"]/div/div[1]/div[1]/div[1]",
+      "targets": [],
+      "value": "Content"
+    }, {
+      "id": "469c33fd-82ea-4478-918e-b64c96064970",
+      "comment": "",
+      "command": "runScript",
+      "target": "alert(${Content})",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cd4c29f-2f73-4b7c-aeaf-93e8d650b239",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37c64ae7-8610-4ac1-82c0-222b2c0c89ca",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56ec3be3-0821-47f6-a9e0-cc4826a2d69d",
       "comment": "",
       "command": "close",
       "target": "",
@@ -174,7 +650,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["e923c816-ff33-49a1-ab7c-8e17404d9ee9"]
+    "tests": []
   }],
   "urls": ["https://www.geeksforgeeks.org/"],
   "plugins": []
