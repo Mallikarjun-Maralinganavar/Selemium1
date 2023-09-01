@@ -1,0 +1,181 @@
+{
+  "id": "76905554-1415-4331-9354-160c5c78a942",
+  "version": "2.0",
+  "name": "geeksforgeeksTest",
+  "url": "https://www.geeksforgeeks.org",
+  "tests": [{
+    "id": "e923c816-ff33-49a1-ab7c-8e17404d9ee9",
+    "name": "geeksforgeeksTest1",
+    "commands": [{
+      "id": "969d0a17-04cc-40dc-ad54-c7165101f0d2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf376d8a-a082-46ad-9728-83c1ed270f36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33321313-9408-4da0-91b4-cf0378885597",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "title"
+    }, {
+      "id": "fdc473ab-06d9-406f-a641-df100eefa101",
+      "comment": "",
+      "command": "echo",
+      "target": "${title}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bf519e0-60f5-4b70-aa0b-7a0172d3d09e",
+      "comment": "",
+      "command": "assert",
+      "target": "title",
+      "targets": [],
+      "value": "GeeksforGeeks | A computer science portal for geeks"
+    }, {
+      "id": "2ce6d1b9-678f-4f2e-8ae2-7eff94e3b2e1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.signin-button",
+      "targets": [
+        ["css=.signin-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='Login']/button", "xpath:idRelative"],
+        ["xpath=//section/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": "Sign In"
+    }, {
+      "id": "c93432c2-6f0a-4d81-9cb6-9d4cf6f576d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=//div[9]/div[3]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "724b18ea-b93c-4f66-b843-71b2a9f3874e",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//a[contains(text(),'Sign In')]",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.header-main__signup", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//li[@id='userProfileId']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://auth.geeksforgeeks.org/?to=https://www.geeksforgeeks.org/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": "Sign In"
+    }, {
+      "id": "d7d3192a-adbd-4a7f-819c-8eb672318201",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//*[@id=\"hslider\"]/li[5]/a",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=//div[10]/div[3]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": "Data Science"
+    }, {
+      "id": "5e0be4f6-894d-4492-992a-733597f5af8c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,186.6666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12549f84-a43f-4a06-a1e6-5c43ce2a8a39",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Data Science",
+      "targets": [
+        ["linkText=Data Science", "linkText"],
+        ["css=#hslider > li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Data Science')])[7]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/courses/data-science-live?itm_source=GfG&itm_medium=gfg_submenu&itm_campaign=DS_Submenu/&ref=shm')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eb9c8fb-b0a3-45b3-8c19-06788e83cc54",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "title1"
+    }, {
+      "id": "c63c39b9-7855-401a-b230-900c98b44597",
+      "comment": "",
+      "command": "assert",
+      "target": "title",
+      "targets": [],
+      "value": "${title}"
+    }, {
+      "id": "113ee17a-d52d-4983-a302-cd2b6d75f502",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Login to Register",
+      "targets": [
+        ["linkText=Login to Register", "linkText"],
+        ["css=.customButtonFont", "css:finder"],
+        ["xpath=(//a[contains(text(),'Login to Register')])[2]", "xpath:link"],
+        ["xpath=//section[@id='mainCourseCard']/div/div/div[2]/div/div[4]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.geeksforgeeks.org/courses/data-science-live?itm_source=GfG&itm_medium=gfg_submenu&itm_campaign=DS_Submenu/&ref=shm?loginMode=696')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a", "xpath:position"]
+      ],
+      "value": "Login to Register"
+    }, {
+      "id": "07bb28b0-e22d-43a6-b8a1-537d349cb43e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1e31d7e-152d-4540-aef5-ddaed94ad26e",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//div[@id='RA-root']/div/div/div/div",
+      "targets": [
+        ["css=.gfg_home_page_search_heading", "css:finder"],
+        ["xpath=//div[@id='RA-root']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Hello, What Do You Want To Learn?"
+    }, {
+      "id": "4d262721-35a5-467f-b58c-259fa1b08e09",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c701a1db-8d2d-497e-86b6-043841a27bfa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e923c816-ff33-49a1-ab7c-8e17404d9ee9"]
+  }],
+  "urls": ["https://www.geeksforgeeks.org/"],
+  "plugins": []
+}
