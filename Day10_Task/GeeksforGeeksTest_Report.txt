@@ -28,8 +28,10 @@ Close
 -------------------------------------------------------------
 Test Case:6
 Open Site:https://www.geeksforgeeks.org
+Get the href
 Scroll the Window
 Click the Data Science Option
+Get the href
 Close
 -------------------------------------------------------------
 Test Case:7
@@ -55,8 +57,19 @@ Close
 -------------------------------------------------------------
 Test Case:10
 Open Site:https://www.geeksforgeeks.org.
+Display the href
 Check where the Sign in option is asking are not.
 Click the Data Science Option.
+Check is it asking for the Login
+Display href
+Back to main page
+Search VHDL
+Dispaly the How many search results are there
+Back to main page
+Check the where you are in main page are not
+Store the Content
+Display in alert 
+Wait for 3s...
 Close
 -------------------------------------------------------------
 -------------------------------------------------------------
